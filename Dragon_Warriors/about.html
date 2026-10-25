@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dragon Warriors Fitness | About Us</title>
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bootstrap-page">
+
+    <a href="#main-content"
+       class="visually-hidden-focusable bg-warning text-dark d-block p-2">
+        Skip to main content
+    </a>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3"
+             aria-label="Main navigation">
+            <div class="container">
+
+                <a class="navbar-brand text-warning fw-bold text-wrap me-2"
+                   href="index.html">
+                    Dragon Warriors Fitness
+                </a>
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbar"
+                        aria-controls="mainNavbar"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav ms-auto gap-lg-3">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active text-warning"
+                               aria-current="page"
+                               href="about.html">
+                                About Us
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="training.html">
+                                Training
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="join.html">
+                                Join Us
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1">
+
+        <section class="about-section container py-4 py-lg-5 px-3 px-md-4">
+            <h1 class="mb-3">About Dragon Warriors</h1>
+
+            <p class="about-intro my-4 ps-3 ps-md-4">
+                <strong class="mb-2">
+                    Build strength. Find your confidence.
+                </strong>
+                At Dragon Warriors Fitness, every workout is a step towards
+                a stronger you. Whether you are just starting or already love
+                training, you belong here.
+            </p>
+
+            <img class="gym-image img-fluid d-block mt-4 mb-0 mx-auto"
+                 src="images/about-gym.png"
+                 alt="Gym members training with a trainer">
+        </section>
+
+        <section class="container mb-4 mb-lg-5 px-3 px-md-4"
+                 aria-labelledby="goals-heading">
+            <h2 class="text-warning text-center mb-4" id="goals-heading">
+                Our Goals
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="bg-dark text-white p-3 p-lg-4 rounded h-100">
+                        <h3 class="text-warning mb-3">Healthy Habits</h3>
+                        <p class="mb-0">
+                            Help people build healthy habits.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="bg-dark text-white p-3 p-lg-4 rounded h-100">
+                        <h3 class="text-warning mb-3">Beginner Support</h3>
+                        <p class="mb-0">
+                            Make training comfortable for beginners.
+                        </p>
+                    </article>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <article class="bg-dark text-white p-3 p-lg-4 rounded h-100">
+                        <h3 class="text-warning mb-3">Personal Progress</h3>
+                        <p class="mb-0">
+                            Support members in reaching their goals.
+                        </p>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container mb-4 mb-lg-5 px-3 px-md-4"
+                aria-labelledby="team-heading">
+            <h2 class="text-warning text-center mb-4" id="team-heading">
+                Our Team
+            </h2>
+
+            <div class="row g-4" id="team-list"></div>
+        </section>
+
+        <section class="container mb-4 mb-lg-5 px-3 px-md-4"
+                 aria-labelledby="faq-heading">
+            <h2 class="text-warning text-center mb-4" id="faq-heading">
+                Frequently Asked Questions
+            </h2>
+
+            <div class="faq-list mx-auto">
+
+                <div class="faq-item">
+                    <h3 class="faq-heading">
+                        <button class="faq-question"
+                                type="button"
+                                id="faq-q1"
+                                aria-expanded="false"
+                                aria-controls="faq-a1">
+                            <span>How much does membership cost?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-answer"
+                         id="faq-a1"
+                         role="region"
+                         aria-labelledby="faq-q1">
+                        <p class="faq-answer-text text-soft">Plans start at 7,000 ₸ per month for Basic. Premium is 12,000 ₸ and Elite is 20,000 ₸ per month.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-heading">
+                        <button class="faq-question"
+                                type="button"
+                                id="faq-q2"
+                                aria-expanded="false"
+                                aria-controls="faq-a2">
+                            <span>Do I need experience to start?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-answer"
+                         id="faq-a2"
+                         role="region"
+                         aria-labelledby="faq-q2">
+                        <p class="faq-answer-text text-soft">No. Our trainers help beginners learn the movements, and every plan includes a free introduction session.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-heading">
+                        <button class="faq-question"
+                                type="button"
+                                id="faq-q3"
+                                aria-expanded="false"
+                                aria-controls="faq-a3">
+                            <span>What are your opening hours?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-answer"
+                         id="faq-a3"
+                         role="region"
+                         aria-labelledby="faq-q3">
+                        <p class="faq-answer-text text-soft">We are open Monday to Friday from 07:00 to 23:00, on Saturday from 09:00 to 21:00, and on Sunday from 10:00 to 18:00.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-heading">
+                        <button class="faq-question"
+                                type="button"
+                                id="faq-q4"
+                                aria-expanded="false"
+                                aria-controls="faq-a4">
+                            <span>Can I train with a personal coach?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-answer"
+                         id="faq-a4"
+                         role="region"
+                         aria-labelledby="faq-q4">
+                        <p class="faq-answer-text text-soft">Yes. Premium includes one personal training session per month, and Elite includes weekly personal training.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-heading">
+                        <button class="faq-question"
+                                type="button"
+                                id="faq-q5"
+                                aria-expanded="false"
+                                aria-controls="faq-a5">
+                            <span>Can I change my plan later?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div class="faq-answer"
+                         id="faq-a5"
+                         role="region"
+                         aria-labelledby="faq-q5">
+                        <p class="faq-answer-text text-soft">Yes. You can start with Basic and upgrade to a higher plan at any time.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="container mb-4 mb-lg-5 px-3 px-md-4"
+                 aria-labelledby="gallery-heading">
+            <h2 class="text-warning text-center mb-4" id="gallery-heading">
+                Life at Dragon Warriors
+            </h2>
+
+            <div class="text-center mb-4">
+                <img id="main-photo"
+                    src="images/gallery1.png"
+                    alt="Our gym interior"
+                    class="img-fluid rounded">
+
+                <p id="photo-caption" class="mt-2">
+                    Our gym interior
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <figure class="gallery-item mb-0">
+                        <img class="gallery-photo"
+                             src="images/gallery1.png"
+                             alt="Our gym interior"
+                             loading="lazy">
+                        <figcaption class="p-3">Our Gym</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <figure class="gallery-item mb-0">
+                        <img class="gallery-photo"
+                             src="images/gallery2.png"
+                             alt="Modern gym equipment"
+                             loading="lazy">
+                        <figcaption class="p-3">Modern Equipment</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <figure class="gallery-item mb-0">
+                        <img class="gallery-photo"
+                             src="images/gallery3.png"
+                             alt="Our gym community"
+                             loading="lazy">
+                        <figcaption class="p-3">Our Community</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <figure class="gallery-item mb-0">
+                        <img class="gallery-photo"
+                             src="images/gallery4.png"
+                             alt="Daily training"
+                             loading="lazy">
+                        <figcaption class="p-3">Daily Training</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <figure class="gallery-item mb-0">
+                        <img class="gallery-photo"
+                             src="images/gallery5.png"
+                             alt="Gym reception"
+                             loading="lazy">
+                        <figcaption class="p-3">Welcome to Our Club</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <figure class="gallery-item mb-0">
+                        <img class="gallery-photo"
+                             src="images/gallery6.png"
+                             alt="Strength workout"
+                             loading="lazy">
+                        <figcaption class="p-3">Build Your Strength</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <figure class="gallery-item mb-0">
+                        <img class="gallery-photo"
+                             src="images/gallery7.png"
+                             alt="Personal coaching"
+                             loading="lazy">
+                        <figcaption class="p-3">Personal Coaching</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <figure class="gallery-item mb-0">
+                        <img class="gallery-photo"
+                             src="images/gallery8.png"
+                             alt="Group workout"
+                             loading="lazy">
+                        <figcaption class="p-3">Train Together</figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <figure class="gallery-item mb-0">
+                        <img class="gallery-photo"
+                             src="images/gallery9.png"
+                             alt="Fitness trainer"
+                             loading="lazy">
+                        <figcaption class="p-3">Meet Our Trainer</figcaption>
+                    </figure>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer py-4 py-lg-5 px-3">
+        <div class="container">
+
+            <p class="footer-brand mb-3">
+                Dragon Warriors <span>Fitness</span>
+            </p>
+
+            <p class="footer-authors mb-0">
+                Created by:
+                <strong>Mussa Madi</strong>
+                <span class="footer-divider mx-2">&amp;</span>
+                <strong>Sapan Miras</strong>
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/keyboard.js"></script>
+    <script src="js/team.js"></script>
+
+</body>
+
+</html>
